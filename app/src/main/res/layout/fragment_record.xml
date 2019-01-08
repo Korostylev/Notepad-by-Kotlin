@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="6dp">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:text="Title"/>
+    <TextView
+        android:id="@+id/textView_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="Content"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textView_dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Date and Time"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_edit_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_margin="2dp"
+            android:textSize="20dp"
+            android:text="edit"/>
+        <Button
+            android:id="@+id/button_delete_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_margin="2dp"
+            android:textSize="20dp"
+            android:text="delete"/>
+    </LinearLayout>
+</LinearLayout>
